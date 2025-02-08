@@ -16,6 +16,7 @@ td, th {
 
 th {
   background-color: rgb(235,235,235);
+  border: 2px solid black;
 }
 
 td {

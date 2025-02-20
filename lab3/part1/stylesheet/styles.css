@@ -11,17 +11,25 @@ body {
   
   h2 {
 	font-style: italic;  
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
   
   .job-title {
     color: #999999;
     font-weight: bold;
   }
+  p {
+	font-family: Georgia, serif;
+	font-style: normal;  
+  }
   ul {
 	  background-color: #eeeeee;
 	  border: 5px solid purple;
 	  padding: 30px;
+  }
+  li {
+	font-family: Georgia, serif;
+	font-style: normal; 
   }
   
   a:link,
@@ -31,5 +39,7 @@ body {
   
   a:hover {
     text-decoration: none;
+	
+	color: green;
   }
   

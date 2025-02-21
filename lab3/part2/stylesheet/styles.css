@@ -22,6 +22,7 @@ div {
 	box-sizing: border-box;
 	padding: 20px;
 	margin: 50px auto;
+	align-content: center;
 	
 	background-color: red;
 	border-radius: 20px;

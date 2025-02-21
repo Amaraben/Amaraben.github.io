@@ -11,3 +11,14 @@ html {
 }
 
 /* Your CSS below here */
+div {
+	width: 200px;
+	height: 200px;
+	border: 1px Magenta;
+	padding: 100px;
+	margin: 50px;
+	background-color: Magenta;
+}
+h3 {
+	color: white;
+}

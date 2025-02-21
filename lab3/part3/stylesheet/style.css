@@ -76,3 +76,24 @@ h2 {
 	letter-spacing: 1.7px;
 	font-family: "Merriweather", serif
 }
+
+ a:link{
+	color: #a66;
+    text-decoration: underline;
+	outline: none;
+  }
+
+
+ a:focus,
+ a:visited,
+ a:hover{
+    /*color: #fb6542;*/
+	color: #a66;
+	text-decoration: none;
+	outline: none;
+  }
+  
+  a:active{
+	font-family: italic; 
+  }
+  

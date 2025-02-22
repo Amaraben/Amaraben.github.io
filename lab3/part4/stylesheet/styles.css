@@ -64,5 +64,15 @@ body {
   nav a {
 	  color: white;
 	  text-decoration: none;
-	  padding: 2px, 3px;
+	  padding: 1px, 3px;
+  }
+  .photos {
+	  display: grid;
+	  grid-template-columns: 1.5fr 1.5fr
+	  /*gap: 1px;*/
+  }
+  .feature {
+	  width: 200px;
+	  float: left;
+	  margin-right: 0.8em;
   }

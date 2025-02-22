@@ -82,11 +82,7 @@ h2 {
 	font-family: "Merriweather", serif
 }
 
- a:link{
-	color: #a66;
-    text-decoration: underline;
-	outline: none;
-  }
+
 
 a[href^="https://"]:not([href="#"])::after {
 	content:"";
@@ -99,27 +95,11 @@ a[href^="https://"]:not([href="#"])::after {
 	vertical-align: middle;
 	
 }
-ul, ol {
-	
-}
-nav {
-	
-}
-
-nav ul {
-	list-style:none;
-	padding: 0;
-}
-nav li {
-	text-align: center;
-	margin-bottom: 1rem;
-}
-nav a {
-	display: block;
-	padding: 1rem;
-	border: solid 1px #a66;
-}
-
+ a:link{
+	color: #a66;
+    text-decoration: underline;
+	outline: none;
+  }
 
  a:focus,
  a:visited,
@@ -132,5 +112,32 @@ nav a {
   
   a:active{
 	font-family: italic; 
+	text-decoration: none;
   }
   
+
+nav ul {
+	list-style:none;
+	padding: 0;
+}
+nav li {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+nav a {
+	display: block;
+	padding: 16px;
+	border: solid 1px #a66;
+	text-decoration: none;
+	font-size: 16px;
+}
+nav a:hover, nav a:focus {
+	color: #a66;
+	border: solid 1px #a66;
+	text-decoration: none;
+}
+ nav a:active {
+	 background:hsl(31, 51%, 50%) ; 
+	text-decoration: none;
+	 border: solid 2px #a66 ;
+ }

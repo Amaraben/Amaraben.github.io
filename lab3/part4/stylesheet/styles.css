@@ -53,18 +53,7 @@ body {
   .grid {
 	  display:flex;
   }
-  nav {
-	  position: sticky;
-	  top: 1;
-  }
-  nav ul {
-	  justify-content: space-between;
-	  display: flex;
-  }
-  nav a {
-	  color: white;
-	  text-decoration: none;
-	  padding: 1px, 3px;
+
   }
   .photos {
 	  display: grid;
@@ -72,7 +61,44 @@ body {
 	  /*gap: 1px;*/
   }
   .feature {
-	  width: 200px;
-	  float: left;
-	  margin-right: 0.8em;
+      width: 200px;
+      float: left;
+      margin-right: 0.8em;
   }
+nav {
+	  position: sticky;
+	  top: 1;
+  }
+nav ul {
+	  justify-content: space-between;
+	  display: flex;
+  }
+nav a {
+	  color: white;
+	  text-decoration: none;
+	  padding: 1px, 3px;
+nav {
+	position: static;
+}
+nav ul {
+	flex-direction: column;
+}
+nav ul li {
+	padding: 0.2px;
+	text-align: center;
+}
+.grid {
+	
+}
+.photos {
+	grid-template-columns: repeat(auto-fill,);
+	gap: 0.9px;
+}
+article {
+	padding-top: 0.5px;
+}
+.feature {
+	float: none;
+	margin: 1 auto;
+	width: 75%;
+}

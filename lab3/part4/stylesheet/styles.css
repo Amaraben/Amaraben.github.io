@@ -49,3 +49,20 @@ body {
   .feature {
       width: 200px;
   }
+  /*my code starts here*/
+  .grid {
+	  display:flex;
+  }
+  nav {
+	  position: sticky;
+	  top: 1;
+  }
+  nav ul {
+	  justify-content: space-between;
+	  display: flex;
+  }
+  nav a {
+	  color: white;
+	  text-decoration: none;
+	  padding: 2px, 3px;
+  }

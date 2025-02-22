@@ -53,14 +53,20 @@ body {
   .grid {
 	  display:flex;
   }
-
-  }
-  .photos {
+.grid {
+	
+}
+.photos {
+	grid-template-columns: repeat(auto-fill,);
+	gap: 0.9px;
+}
+ 
+.photos {
 	  display: grid;
 	  grid-template-columns: 1.5fr 1.5fr
 	  /*gap: 1px;*/
   }
-  .feature {
+ .feature {
       width: 200px;
       float: left;
       margin-right: 0.8em;
@@ -87,13 +93,7 @@ nav ul li {
 	padding: 0.2px;
 	text-align: center;
 }
-.grid {
-	
-}
-.photos {
-	grid-template-columns: repeat(auto-fill,);
-	gap: 0.9px;
-}
+
 article {
 	padding-top: 0.5px;
 }

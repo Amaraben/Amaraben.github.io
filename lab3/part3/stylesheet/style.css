@@ -54,6 +54,7 @@ body {
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
+  line-height: 1.7;
 }
 
 header, section, aside, nav, footer  {
@@ -83,6 +84,17 @@ h2 {
 	outline: none;
   }
 
+a[href^="https://"]:not([href="#"])::after {
+	content:"";
+	background-image: url('../icon/external-link-icon.png');
+	display: inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	
+}
 
  a:focus,
  a:visited,

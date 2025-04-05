@@ -1,6 +1,10 @@
 
-
-
+/*
+Name: Amarachi Ben-Ikenador
+File: Silly story Generator
+Date: April 4th 2025
+This is the javascript file code for the image gallery.
+*/
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 

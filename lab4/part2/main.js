@@ -21,6 +21,14 @@ const imageFilenames = [
 ];
 
 /* Declaring the alternative text for each image file */
+const imageDescriptions = {
+    'images/pic1.jpg':'Closeup of human eye',
+    'images/pic2.jpg':'Wave pattern photo',
+    'images/pic3.jpg':'Purple flowers',
+    'images/pic4.jpg':'Egyptian art on the wall',
+    'images/pic5.jpg':'Moth on a cocoyam leaf'
+};
+
 
 
 /* Looping through images */

@@ -1,5 +1,10 @@
 // setup canvas
-
+ 
+// Name: Amarachi Ben-Ikenador
+// File: Image Gallery
+// Date: April 4th 2025
+// This is a website that displays a bouncing ball animation using HTML, CSS, and JavaScript.
+ 
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 

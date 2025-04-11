@@ -1,4 +1,10 @@
-// functionality for showing/hiding the comments section
+// Name: Amarachi Ben-Ikenador
+// File: Accessibility Assessment Challenege
+// Date: 11th April 2025
+// This is the javascript file for the accessibility assessment challenge.
+
+
+
 
 const showHideBtn = document.querySelector('.show-hide');
 const commentWrapper = document.querySelector('.comment-wrapper');

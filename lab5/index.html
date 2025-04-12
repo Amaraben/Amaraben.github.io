@@ -35,7 +35,9 @@ It is a wildlife wesbsite about bears and their habitats.
       </ul>
 
       <form class="search">
-        <input type="search" name="q" placeholder="Search query">
+        <label for="search" class="visually-hidden">Search</label>
+        <input type="hidden" name="search" value="search">
+        <input type="search" id="search" name="q" placeholder="Search query">
         <input type="submit" value="Go!">
       </form>
     </nav>
@@ -56,7 +58,7 @@ It is a wildlife wesbsite about bears and their habitats.
         <br><br>
         Bears can also be classified in terms of their habitat — both large and medium bears are just as at home in urban areas as they are in the countryside. Different habitats encourange different behaviour however, as you'll find out below. The below table also gives you some useful facts about bears.
         <br><br>
-        <table>
+        <table><caption>Bear types and facts</caption>
           <thead>
             <tr>
               <th>Bear Type</th>
@@ -108,6 +110,7 @@ It is a wildlife wesbsite about bears and their habitats.
         <audio controls>
           <source src="media/bear.mp3" type="audio/mp3">
           <source src="media/bear.ogg" type="audio/ogg">
+          <p><strong><Transcrpt:</strong>This audio discusses bear mating habits with expert quotes about behaviours and seasonal patterns</p>
           <p>It looks like your browser doesn't support HTML5 audio players.</p>
         </audio>
 
@@ -121,7 +124,7 @@ It is a wildlife wesbsite about bears and their habitats.
 
         </aside>
         <section class="comments">
-          <div class="show-hide">Show comments</div>
+          <button class="show-hide">Show comments</button>
 
           <div class="comment-wrapper">
 

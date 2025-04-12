@@ -7,7 +7,7 @@ This is the html file for the accessibility assessment challenge.
 It is a wildlife wesbsite about bears and their habitats.
 -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
 
@@ -36,8 +36,7 @@ It is a wildlife wesbsite about bears and their habitats.
 
       <form class="search">
         <label for="search" class="visually-hidden">Search</label>
-        <input type="hidden" name="search" value="search">
-        <input type="search" id="search" name="q" placeholder="Search query">
+        <input type="search" id="search" name="search" placeholder="Search query">
         <input type="submit" value="Go!">
       </form>
     </nav>
@@ -61,12 +60,12 @@ It is a wildlife wesbsite about bears and their habitats.
         <table><caption>Bear types and facts</caption>
           <thead>
             <tr>
-              <th>Bear Type</th>
-              <th>Coat</th>
-              <th>Adult size</th>
-              <th>Habitat</th>
-              <th>Lifespan</th>
-              <th>Diet</th>
+              <th scope="col">Bear Type</th>
+              <th scope="col">Coat</th>
+              <th scope="col">Adult size</th>
+              <th scope="col">Habitat</th>
+              <th scope="col">Lifespan</th>
+              <th scope="col">Diet</th>
             </tr>
           </thead>
           <tbody>
@@ -110,7 +109,7 @@ It is a wildlife wesbsite about bears and their habitats.
         <audio controls>
           <source src="media/bear.mp3" type="audio/mp3">
           <source src="media/bear.ogg" type="audio/ogg">
-          <p><strong><Transcrpt:</strong>This audio discusses bear mating habits with expert quotes about behaviours and seasonal patterns</p>
+          <p><strong>Transcript:</strong> This audio discusses bear mating habits with expert quotes about behaviours and seasonal patterns</p>
           <p>It looks like your browser doesn't support HTML5 audio players.</p>
         </audio>
 
@@ -128,7 +127,7 @@ It is a wildlife wesbsite about bears and their habitats.
 
           <div class="comment-wrapper">
 
-            <h1>Add comment</h1>
+            <h4>Add comment</h4>
 
             <form class="comment-form">
               <div class="flex-pair">
@@ -144,7 +143,7 @@ It is a wildlife wesbsite about bears and their habitats.
               </div>
             </form>
 
-            <h1>Comments</h1>
+            <h4>Comments</h4>
 
             <ul class="comment-container">
 

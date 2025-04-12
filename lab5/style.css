@@ -11,6 +11,27 @@ html, body {
   padding: 0;
 }
 
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-family: 'Sonsie One', cursive;
+  color: #ffffff;
+  text-shadow: #0b0404 2px 2px 10px;
+}
+
+h2 {
+  font-size: 2.8rem;
+  text-align: center;
+  font-family: 'Sonsie One', cursive;
+  color: #000000;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-family: 'Sonsie One', cursive;
+  color: #000000;
+}
+
 html {
   font-size: 10px;
   background-color: #dde;
@@ -57,7 +78,7 @@ p, li, table {
 
 /* || header layout */
 
-div[class="nav"], article, footer, .secondary {
+nav.nav, article, footer, .secondary {
   background-color: rgb(255, 255, 255);
 }
 
@@ -69,7 +90,7 @@ article {
   margin-right: 10px;
 }
 
-div[class="nav"] {
+nav.nav {
   height: 50px;
   background-color: #ffffff;
   display: flex;
@@ -77,20 +98,20 @@ div[class="nav"] {
   margin-bottom: 10px;
 }
 
-div[class="nav"] ul {
+nav.nav[class="nav"] ul {
   padding: 0;
   list-style-type: none;
   flex: 2;
   display: flex;
 }
 
-div[class="nav"] li {
+nav.nav[class="nav"] li {
   display: inline;
   text-align: center;
   flex: 1;
 }
 
-div[class="nav"] a {
+nav.nav[class="nav"] a {
   display: inline-block;
   font-size: 2rem;
   text-transform: uppercase;
@@ -98,7 +119,7 @@ div[class="nav"] a {
   color: black;
 }
 
-div[class="nav"] .search {
+nav.nav[class="nav"] .search {
   flex: 1;
   display: flex;
   align-items: center;

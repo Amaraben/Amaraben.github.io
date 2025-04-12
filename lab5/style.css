@@ -119,7 +119,7 @@ nav.nav[class="nav"] a {
   color: black;
 }
 
-nav.nav[class="nav"] .search {
+div[class="nav"] .search {
   flex: 1;
   display: flex;
   align-items: center;
@@ -206,6 +206,17 @@ audio {
 
 .show-hide {
   cursor: pointer;
+  text-align: center;
+  width: 150px;
+  background: #333;
+  border: 0;  
+  color: white;
+  font-size: 1.6rem;
+  line-height: 32px;
+}
+
+.show-hide:focus {
+  outline: 2px solid #ffffff;
 }
 
 .comments font[size="6"] {
@@ -229,11 +240,26 @@ audio {
   align-self: center;
   flex: 2;
   text-align: right;
+  font-size: 1.6rem;
+  line-height: 32px;
 }
 
 .comment-form input {
   margin-left: 1rem;
-  flex: 6;
+  flex: 6;    
+  font-size: 1.6rem;
+  line-height: 32px;
+}
+
+.comment-form input [type="submit"] {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  background: #333;
+  border: 0;
+  color: white;
+  font-size: 1.6rem;
+  line-height: 32px;
 }
 
 .show-hide {
@@ -245,6 +271,7 @@ audio {
   font-size: 1.6rem;
   line-height: 32px;
 }
+
 
 .comment-form input[type="submit"], .show-hide {
   background: #333;
@@ -274,4 +301,16 @@ audio {
 
 .comment-container li p:nth-child(2) {
   flex: 5;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  white-space: nowrap;
 }
